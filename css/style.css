@@ -136,7 +136,7 @@ header .main-title {
 article {
   display: block;
   width: 90%;
-  min-width: 980px;
+  min-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -145,18 +145,17 @@ article {
 /* line 74, ../scss/style.scss */
 .msg-list {
   display: block;
-  width: 100%;
   overflow: hidden;
   padding-bottom: 300px;
 }
 
 /*li*/
-/* line 81, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .msg-item {
   position: relative;
   display: block;
   width: 280px;
-  margin: 15px 20px 40px 0;
+  margin: 15px 0px 40px 20px;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -166,7 +165,7 @@ article {
   /*p*/
   /*p*/
 }
-/* line 91, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .msg-item img {
   display: block;
   width: 278px;
@@ -174,24 +173,24 @@ article {
   margin-bottom: 10px;
   border: 1px solid #eee;
 }
-/* line 98, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .msg-item .msg-name {
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
   margin-bottom: 0.5em;
 }
-/* line 103, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 .msg-item .msg-name:before {
   content: "from: ";
 }
-/* line 107, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .msg-item .msg-cont {
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
 }
-/* line 113, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 .msg-item .tag {
   position: absolute;
   display: block;
@@ -203,7 +202,7 @@ article {
   background-repeat: no-repeat;
   background-image: url("../images/tag.png");
 }
-/* line 123, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .msg-item .tag .no {
   display: block;
   width: 100%;
@@ -214,7 +213,7 @@ article {
   text-align: center;
 }
 
-/* line 138, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 footer {
   width: 100%;
   position: absolute;
@@ -223,7 +222,7 @@ footer {
 }
 
 /*img*/
-/* line 145, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .logo {
   display: inline-block;
   vertical-align: middle;
@@ -232,7 +231,7 @@ footer {
 }
 
 /*p*/
-/* line 152, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .copy {
   text-align: center;
   font-family: "Times New Roman", serif;

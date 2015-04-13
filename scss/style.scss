@@ -63,7 +63,7 @@ header{
 article{
 	display: block;
 	width: 90%;
-	min-width: 980px;
+	min-width: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -73,7 +73,6 @@ $baseText: #333;
 
 /*ul*/.msg-list{
 	display: block;
-	width: 100%;
 	overflow: hidden;
 	padding-bottom: 300px;
 }
@@ -82,7 +81,7 @@ $baseText: #333;
 	position: relative;
 	display: block;
 	width: 280px;
-	margin: 15px 20px 40px 0;
+	margin: 15px 0px 40px 20px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
