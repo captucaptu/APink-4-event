@@ -1,0 +1,248 @@
+/* line 17, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../fire.app/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../scss/style.scss */
+body {
+  font-family: Helvetica, Arial, 'LiHei Pro', "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+}
+
+/* line 9, ../scss/style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 16, ../scss/style.scss */
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* line 24, ../scss/style.scss */
+.wrap {
+  position: relative;
+  min-width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 32, ../scss/style.scss */
+header {
+  display: block;
+  width: 100%;
+  /*h2*/
+}
+/* line 35, ../scss/style.scss */
+header .main-title {
+  display: block;
+  width: 980px;
+  height: 360px;
+  text-indent: -9999px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/title.png");
+}
+
+/*h3*/
+/* line 48, ../scss/style.scss */
+.event-title {
+  display: block;
+  width: 250px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/event-title.png");
+}
+
+/* line 63, ../scss/style.scss */
+article {
+  display: block;
+  width: 90%;
+  min-width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*ul*/
+/* line 74, ../scss/style.scss */
+.msg-list {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 300px;
+}
+
+/*li*/
+/* line 81, ../scss/style.scss */
+.msg-item {
+  position: relative;
+  display: block;
+  width: 280px;
+  margin: 15px 20px 40px 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 90px;
+  background-color: white;
+  /*p*/
+  /*p*/
+  /*p*/
+}
+/* line 91, ../scss/style.scss */
+.msg-item img {
+  display: block;
+  width: 278px;
+  height: auto;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+/* line 98, ../scss/style.scss */
+.msg-item .msg-name {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+  margin-bottom: 0.5em;
+}
+/* line 103, ../scss/style.scss */
+.msg-item .msg-name:before {
+  content: "from: ";
+}
+/* line 107, ../scss/style.scss */
+.msg-item .msg-cont {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+}
+/* line 113, ../scss/style.scss */
+.msg-item .tag {
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 90px;
+  right: -13px;
+  bottom: -33px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/tag.png");
+}
+/* line 123, ../scss/style.scss */
+.msg-item .tag .no {
+  display: block;
+  width: 100%;
+  font-size: 0.8em;
+  line-height: 1em;
+  color: #333333;
+  margin-top: 72px;
+  text-align: center;
+}
+
+/* line 138, ../scss/style.scss */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+/*img*/
+/* line 145, ../scss/style.scss */
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 50px;
+}
+
+/*p*/
+/* line 152, ../scss/style.scss */
+.copy {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  letter-spacing: 2px;
+  line-height: 50px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  /* Retina-specific stuff here */
+}

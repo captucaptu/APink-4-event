@@ -1,0 +1,178 @@
+﻿@import "compass/reset";
+@import "compass/css3";
+
+
+body{
+	font-family: Helvetica, Arial, 'LiHei Pro', "Microsoft JhengHei", sans-serif;
+	font-size: 14px;
+}
+html,body{
+	height: 100%;
+}
+a{text-decoration: none;}
+
+
+
+body{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.wrap{
+	position: relative;
+	min-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+header{
+	display: block;
+	width: 100%;
+	/*h2*/.main-title{
+		display: block;
+		width: 980px;
+		height: 360px;
+		text-indent: -9999px;
+		margin: 0 auto;
+		overflow: hidden;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-image: url("../images/title.png");
+	}
+}
+
+/*h3*/.event-title{
+	display: block;
+	width: 250px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-image: url("../images/event-title.png");
+}
+
+article{
+	display: block;
+	width: 90%;
+	min-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+$baseText: #333;
+
+/*ul*/.msg-list{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 300px;
+}
+
+/*li*/.msg-item{
+	position: relative;
+	display: block;
+	width: 280px;
+	margin: 15px 20px 40px 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 90px;
+	background-color: white;
+	img{
+		display: block;
+		width: 278px;
+		height: auto;
+		margin-bottom: 10px;
+		border: 1px solid #eee;
+	}
+	/*p*/.msg-name{
+		font-size: 1em;
+		line-height: 1.5em;
+		color: $baseText;
+		margin-bottom: 0.5em;
+		&:before{
+			content: "from: "
+		}
+	}
+	/*p*/.msg-cont{
+		font-size: 1em;
+		line-height: 1.5em;
+		color: $baseText;
+		//min-height: 3em;
+	}
+	/*p*/.tag{
+		position: absolute;
+		display: block;
+		width: 70px;
+		height: 90px;
+		right: -13px;
+		bottom: -33px;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-image: url("../images/tag.png");
+		.no{
+			//position: absolute;
+			display: block;
+			width: 100%;
+			font-size: 0.8em;
+			line-height: 1em;
+			color: $baseText;
+			//top: 72px;
+			//left: 7.5px;
+			margin-top: 72px;
+			text-align: center;
+		}
+	}
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+/*img*/.logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 50px;
+}
+
+/*p*/.copy{
+	text-align: center;
+	font-family: "Times New Roman", serif;
+	font-size: 1em;
+	letter-spacing: 2px;
+	line-height: 50px;
+	color: #555;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 2dppx) { 
+  
+  /* Retina-specific stuff here */
+  
+}
