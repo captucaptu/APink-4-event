@@ -68,9 +68,11 @@ $(document).ready(function(){
 					msg = msg + '</li>';
 					$('.msg-list').append(msg);
 				});
-				$('.msg-list').masonry({        
-            itemSelector: '.msg-item'
-        });
+				$('img').load(function(){
+					$('.msg-list').masonry({        
+	            itemSelector: '.msg-item'
+	        });
+				});
 				/*var find = false;
 				for (var k = 0; k<bookers.length; k++) {
 					if(bookers[k][1]==pttid && (bookers[k][7]==(tel.substring(1,tel.length)) || bookers[k][7] == tel)){
