@@ -55,13 +55,14 @@ $(document).ready(function(){
 						}
 					});
 					var msg = '<li class="msg-item">';
-					var pics = [];
-					pics = bookers[i][5].split("\n");
+					//var pics = [];
+					//pics = [bookers[i][3],bookers[i][6]];
 					//console.log(bookers[i][5]);
-					for(var p=0;p<pics.length;p++){
-						msg+='<img src="'+pics[p]+'">';
+					//for(var p=0;p<pics.length;p++){
+						if(bookers[i][3]!="") msg+='<img src="'+bookers[i][3]+'">';
+						if(bookers[i][5]!="") msg+='<img src="'+bookers[i][5]+'">';
 						//$('article').append('<img src="'+pics[p]+'"><br><br>');
-					}
+					//}
 					msg = msg + '<p class="msg-name">'+bookers[i][2]+'</p>';
 					msg = msg + '<p class="msg-cont">'+bookers[i][4]+'</p>';
 					msg = msg + '<div class="tag"><p class="no">No. '+(i+1)+'</p></div>';
