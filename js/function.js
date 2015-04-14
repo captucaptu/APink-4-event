@@ -59,12 +59,12 @@ $(document).ready(function(){
 					//pics = [bookers[i][3],bookers[i][6]];
 					//console.log(bookers[i][5]);
 					//for(var p=0;p<pics.length;p++){
-						if(bookers[i][3]!="") msg+='<img src="'+bookers[i][3]+'">';
-						if(bookers[i][5]!="") msg+='<img src="'+bookers[i][5]+'">';
+						if(bookers[i][3]!="") msg+='<a href="#" class="zoom-btn"><img src="'+bookers[i][3]+'"></a>';
+						if(bookers[i][4]!="") msg+='<a href="#" class="zoom-btn"><img src="'+bookers[i][4]+'"></a>';
 						//$('article').append('<img src="'+pics[p]+'"><br><br>');
 					//}
 					msg = msg + '<p class="msg-name">'+bookers[i][2]+'</p>';
-					msg = msg + '<p class="msg-cont">'+bookers[i][4]+'</p>';
+					msg = msg + '<p class="msg-cont">'+bookers[i][5]+'</p>';
 					msg = msg + '<div class="tag"><p class="no">No. '+(i+1)+'</p></div>';
 					msg = msg + '</li>';
 					$('.msg-list').append(msg);
@@ -73,6 +73,20 @@ $(document).ready(function(){
 					$('.msg-list').masonry({        
 	            itemSelector: '.msg-item'
 	        });
+	        $('.zoom-btn').click(function(e){
+	        	e.preventDefault();
+	        	var url = $(this).children("img").attr("src");
+	        	$('.cover .zoom').attr("src",url);
+	        	$('.cover').fadeIn();
+	        });
+				});
+				$('.close-btn').click(function(e){
+					e.preventDefault();
+					$('.cover').fadeOut();
+				});
+				$('.cover').click(function(e){
+					e.preventDefault();
+					$('.cover').fadeOut();
 				});
 				/*var find = false;
 				for (var k = 0; k<bookers.length; k++) {
